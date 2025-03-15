@@ -1,6 +1,12 @@
 name: Django CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main  # Updated branch name
+  pull_request:
+    branches:
+      - main  # Updated branch name
 
 jobs:
   test:
